@@ -1,0 +1,27 @@
+/* Write your code here: */
+
+h1,
+h2 {
+  /* combining */
+  color: blueviolet;
+}
+
+.box>p {
+  /* parent > child */
+  color: firebrick;
+}
+
+.box .list {
+  /* ancestor -> descendant */
+  color: blue;
+}
+
+li.done {
+  /* chaining -> apply where ALL selectors are true  */
+  color: seagreen;
+}
+
+/* combining combiners */
+ul p.done {
+  font-size: 0.5rem
+}
